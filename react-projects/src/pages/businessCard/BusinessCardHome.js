@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./businessCard.module.css";
 import Header from "../businessCard/components/header/Header";
-import About from "../businessCard/components/header/About";
-import Socials from "../businessCard/components/header/Socials";
+import About from "../businessCard/components/about/About";
+import Socials from "../businessCard/components/socials/Socials";
 
 const businessCardHome = () => {
     return (
