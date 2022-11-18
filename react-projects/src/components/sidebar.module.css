@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    background-color:darkgray;
+ }
+@media only screen and (min-width: 300px) {
+    .container {
+        visibility: hidden;
+    }
+}
+@media only screen and (min-width:770px ){
+    .container {
+        visibility: visible;
+        width: 15%;
+        height: 100vh;
+        padding-top: .5rem;
+    }
+    .title {
+        color: black;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .project_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 30px;
+        margin: .8em auto;
+        background-color: gray;
+        border-radius: 10px 0px 10px 0px;
+        box-shadow: 2px 2px 0px rgb(8, 8, 8);
+    }
+    .project_item:hover {
+        box-shadow: -1px -2px 0px var(--blue);
+        background: whitesmoke;
+        color: var(--blue);
+    }
+    .project_title {
+        color: black;
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+    .coming_soon {
+        text-align: right;
+        margin-right: 10px;
+    }
+}
