@@ -5,7 +5,7 @@ import styles from "./home.module.css";
 const Home = () => {
     return (
         <div className={styles.container}>
-            <h1>Landing page</h1>
+            <h1>Landing/Home page</h1>
         </div>
     );
 };

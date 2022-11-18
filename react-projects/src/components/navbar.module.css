@@ -1,0 +1,63 @@
+@media only screen and (min-width: 300px){
+    .container { 
+        background-color: rgb(50, 50, 50);
+        padding: 1rem .1rem .5rem .5rem;
+    }
+    .logo {
+        text-align:center;
+        font-size: 1.5em;
+        
+    }
+    .logo_name {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.7em;
+    }
+    .react_blue {
+        color: rgb(73, 191, 255);
+    }
+    .back_to_profile {
+       
+        color: rgb(255, 0, 0);
+        margin-left: auto;
+        margin-top:-5px;
+        background: transparent;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+    }
+    
+}
+
+@media only screen and (min-width: 760px) {
+    
+.container {
+    
+    display: flex;
+    padding: 1rem 3rem;
+    background-color: rgb(50, 50, 50);
+}
+.logo_name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+}
+.logo {
+    font-size: 1.5em;
+    
+}
+.react_blue {
+    color: rgb(73, 191, 255);
+}
+.back_to_profile {
+    color: gray;
+    margin-left: auto;
+    background: transparent;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: none;
+}
+.back_to_profile:hover {
+    color: red;
+    transform: scale(1.1);
+}
+}
+
