@@ -7,6 +7,7 @@
 @media only screen and (min-width: 300px) {
     .container {
         visibility: hidden;
+        height: 10px;
     }
 }
 @media only screen and (min-width:770px ){
