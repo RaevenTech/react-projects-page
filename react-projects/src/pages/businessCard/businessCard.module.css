@@ -1,0 +1,33 @@
+
+
+    
+    .container {
+        background: rgba(131, 130, 130, 0);
+        width: 100%;
+        height: fit-content;
+    }
+    .card {
+        width: 320px;
+        
+    }
+
+
+@media (min-width:425px) {
+    
+    .container {
+        margin-left:0px ;
+        text-align: center;
+        background: rgb(218, 38, 38);
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media (min-width : 768px) {
+    
+    .container {
+        text-align: center;
+        background: rgb(57, 67, 255);
+        width: 100%;
+        height: fit-content;
+    }
+}

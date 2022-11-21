@@ -10,11 +10,18 @@ function App() {
         <>
             <Navbar />
             <SideBar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/businessCard" element={<BusinessCardHome />} />
-                <Route path="" element="" />
-            </Routes>
+            <div className="main_container">
+                <div className="routes">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route
+                            path="/businessCard"
+                            element={<BusinessCardHome />}
+                        />
+                        <Route path="" element="" />
+                    </Routes>
+                </div>
+            </div>
         </>
     );
 }

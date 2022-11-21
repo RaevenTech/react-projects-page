@@ -5,7 +5,19 @@
 .App {
   color: white;
   text-align: center;
-  font-family: 'Inter Tight', sans-serif;   
+  font-family: 'Inter Tight', sans-serif;  
+  position: relative; 
+}
+
+@media only screen and (min-width: 770px) {
+  .routes {
+    position:absolute;
+    width: 85%;
+    height: fit-content;
+    top: 86px;
+    left: 15%;
+  }
+  
 }
 
 
