@@ -5,17 +5,17 @@ const projectsList = [
     {
         id: 1,
         title: "Business Card",
-        url: "pathway1",
+        url: "businessCard",
     },
     {
         id: 2,
         title: "AirBnB Page",
-        url: "pathway2",
+        url: "airbnb",
     },
     {
         id: 3,
         title: "Notes App",
-        url: "pathway3",
+        url: "notes",
     },
 ];
 

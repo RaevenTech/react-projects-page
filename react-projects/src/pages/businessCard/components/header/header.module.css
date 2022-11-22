@@ -2,14 +2,78 @@
     box-sizing: border-box;
 }
 .container {
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F5F5F5;
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
 }
 .img {
-    width: 150px;
+    width: 300px;
 }
-
- @media (min-width: 425px) {}
- 
- @media (min-width: 768px) {}
+.name {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.job_title {
+    font-weight: 300;
+    color: #F47D27;
+    font-size: .9rem;
+    margin: 5px 0px 0px 0px;
+}
+.website {
+    margin: 15px 0px 20px 0px;
+    font-size: .8em;
+    text-decoration: underline;
+}
+.website:hover {
+    color: #297FE5;
+    cursor: pointer;
+}
+.btns_el {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.btn {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+.btn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.btn1 {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    color: white;
+    background-color: #297FE5 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border:1px solid gray;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: #164278 ;
+    cursor: pointer;
+}
+.btn_icon {
+    font-size: 1.5em;
+}
+.btn_txt {
+    margin-top:0px;
+}
