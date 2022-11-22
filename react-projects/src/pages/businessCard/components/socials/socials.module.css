@@ -1,0 +1,11 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #918E9B;
+    height: 65px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 30px;
+}

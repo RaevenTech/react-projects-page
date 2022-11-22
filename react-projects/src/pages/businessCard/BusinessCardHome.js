@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./businessCard.module.css";
 import Header from "../businessCard/components/header/Header";
 import About from "../businessCard/components/about/About";
-//import Socials from "../businessCard/components/socials/Socials";
+import Socials from "./components/socials/Socials";
 
 const businessCardHome = () => {
     return (
@@ -10,6 +10,7 @@ const businessCardHome = () => {
             <div className={styles.card}>
                 <Header />
                 <About />
+                <Socials />
             </div>
         </div>
     );
