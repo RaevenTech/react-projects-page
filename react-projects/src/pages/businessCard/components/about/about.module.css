@@ -1,0 +1,18 @@
+
+.container {
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+.p_txt {
+    padding: 5px 25px;
+}
+.p_title {
+    font-size: 1.2rem ;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.text {
+    font-size: .8rem;
+}

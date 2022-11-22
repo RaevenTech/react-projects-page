@@ -73,6 +73,11 @@
 }
 .btn_icon {
     font-size: 1.5em;
+    margin-bottom: -5px;
+}
+.btn_icon1 {
+    font-size: 1.3em;
+    margin-bottom: -5px;
 }
 .btn_txt {
     margin-top:0px;

@@ -21,7 +21,7 @@ const Header = () => {
                     <div className={styles.btn_txt}>Email</div>
                 </button>
                 <button className={styles.btn1}>
-                    <div className={styles.btn_icon}>
+                    <div className={styles.btn_icon1}>
                         <BsLinkedin />
                     </div>
                     <div className={styles.btn_txt}>Linkedin</div>

@@ -13,9 +13,10 @@
   .routes {
     position:absolute;
     width: 85%;
-    height: fit-content;
+    height: 100%;
     top: 86px;
     left: 15%;
+    text-align: center;
   }
   
 }
