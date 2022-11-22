@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+}
+.react_logo {
+    margin: 0px;
+    
+}
+.title1 {
+    color:  rgb(73, 191, 255);
+    margin-bottom: -20px;
+    margin-top: 2rem;
+    margin-left: -500px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+.projectsTxt {
+    color: white;
+    font-size: .7em;
+}
+.title2 {
+    z-index: 1;
+    margin-top: -30px;
+    letter-spacing: 2px;
+    margin-left: 500px;
+}
+.routerTxt {
+    color: red;
+}
+.domTxt {
+    color:rgb(115, 115, 115);
+}
