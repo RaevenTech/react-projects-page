@@ -34,12 +34,15 @@
 }
 .website:hover {
     color: #297FE5;
-    cursor: pointer;
+    cursor: pointer;transform: scale(1.2);
 }
 .btns_el {
     display: flex;
     gap: 1rem;
     margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
 }
 .btn {
     display: flex;
@@ -47,6 +50,7 @@
     justify-content: center;
     align-items: center;
     width: 115px;
+    padding: 3px 0px;
     border-radius: 5px;
     border:1px solid gray;
 }
@@ -64,11 +68,13 @@
     background-color: #297FE5 ;
     padding: 5px 10px;
     border-radius: 5px;
-    border:1px solid gray;
+    border:1px solid #297FE5 ;
     cursor: pointer;
+
 }
 .btn1:hover {
     background-color: #164278 ;
+    border:1px solid #164278 ;
     cursor: pointer;
 }
 .btn_icon {

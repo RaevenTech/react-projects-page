@@ -6,9 +6,10 @@
     justify-content: center;
     gap: 10px;
     background-color: #918E9B;
-    height: 65px;
+    height: fit-content;
     border-radius: 0px 0px 10px 10px;
     font-size: 30px;
+    padding-top: 10px;
 }
 .socials:hover {
     color:#F5F5F5;
