@@ -8,10 +8,18 @@ import { FaGithubSquare } from "react-icons/fa";
 const Socials = () => {
     return (
         <div className={styles.container}>
-            <FaFacebookSquare />
-            <FaTwitterSquare />
-            <FaInstagramSquare />
-            <FaGithubSquare />
+            <a href="www.facebook.com">
+                <FaFacebookSquare className={styles.socials} />
+            </a>
+            <a href="www.twitter.com">
+                <FaTwitterSquare className={styles.socials} />
+            </a>
+            <a href="www.instagram.com">
+                <FaInstagramSquare className={styles.socials} />
+            </a>
+            <a href="www.github.com">
+                <FaGithubSquare className={styles.socials} />
+            </a>
         </div>
     );
 };
