@@ -18,7 +18,7 @@ function App() {
                             path="/businessCard"
                             element={<BusinessCardHome />}
                         />
-                        <Route path="" element="" />
+                        <Route path="/airbnb" element="" />
                     </Routes>
                 </div>
             </div>
