@@ -4,6 +4,7 @@ import Home from "../src/pages/Home";
 import BusinessCardHome from "../src/pages/businessCard/BusinessCardHome";
 import Navbar from "./components/Navbar";
 import SideBar from "./components/SideBar";
+import AirbnbHome from "./pages/airbnb-clone/AirbnbHome";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
                             path="/businessCard"
                             element={<BusinessCardHome />}
                         />
-                        <Route path="/airbnb" element="" />
+                        <Route path="/airbnb" element={<AirbnbHome />} />
                     </Routes>
                 </div>
             </div>

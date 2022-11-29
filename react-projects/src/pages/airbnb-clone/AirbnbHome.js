@@ -1,11 +1,12 @@
 import React from "react";
-import styles from "./navbar.module.css";
+import styles from "./airbnbHome.module.css";
+import AirbnbNavbar from "./components/navbar/AirbnbNavbar";
 
 const AirbnbHome = () => {
     return (
-        <nav>
-            <h1>Navebar</h1>
-        </nav>
+        <div className={styles.container}>
+            <AirbnbNavbar />
+        </div>
     );
 };
 
