@@ -66,4 +66,10 @@
 .price {
     font-weight: 600;
 }
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin: 0px;
+}
 
