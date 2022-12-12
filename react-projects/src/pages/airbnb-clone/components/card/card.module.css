@@ -10,7 +10,6 @@
     text-align: left;
     color: black;
     margin: 50px 0px 0px 0px;
-    border: 1px solid black;
     width: fit-content;
 }
 .image {
@@ -31,10 +30,6 @@
     background-color: #FFFFFF;
     z-index: 5;
 }
-
-
-
-
 .rating_info {
     display: flex;
     align-items: center;
@@ -66,10 +61,5 @@
 .price {
     font-weight: 600;
 }
-#cards {
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    margin: 0px;
-}
+
 

@@ -9,7 +9,10 @@ const Navbar = () => {
                 <span className={styles.react_blue}>React</span>
                 (React-router-DOM)
             </div>
-            <button className={styles.back_to_profile}>Back</button>
+
+            <button className={styles.back_to_profile}>
+                <a href="/">Back</a>
+            </button>
         </div>
     );
 };

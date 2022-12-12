@@ -13,7 +13,7 @@ const AirbnbHome = () => {
         <div className={styles.container}>
             <AirbnbNavbar />
             <AirbnbHero />
-            <div id="cards">{cards}</div>
+            <div className={styles.cards}>{cards}</div>
         </div>
     );
 };
