@@ -9,7 +9,7 @@ const About = () => {
                 <p className={styles.text}>
                     I am a front-end developer with a particular interest in
                     making things simple and automating daily tasks. I try to
-                    keep up with security and best practices, and am alwyas
+                    keep up with security and best practices, and am always
                     looking to learn new things.
                 </p>
             </div>

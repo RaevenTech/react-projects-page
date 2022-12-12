@@ -12,11 +12,6 @@ const projectsList = [
         title: "AirBnB Page",
         url: "airbnb",
     },
-    {
-        id: 3,
-        title: "Notes App",
-        url: "notes",
-    },
 ];
 
 const SideBar = () => {
